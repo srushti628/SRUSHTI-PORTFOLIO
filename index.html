@@ -1,0 +1,515 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Srushti Talawar | Portfolio</title>
+
+    <meta name="description"
+          content="Srushti Talawar's personal portfolio showcasing skills, projects, education, and contact information.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">S<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>
+                        Hi, I'm <span>Srushti Talawar</span>
+                    </h1>
+
+                    <h2>Engineering Student & Aspiring Developer</h2>
+
+                    <p class="hero-description">
+                        I am an Information Science and Engineering student
+                        interested in technology, web development, and
+                        creating useful digital experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">GitHub ↗</a>
+
+                        <a href="https://www.linkedin.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">LinkedIn ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-glow"></div>
+
+                    <img src="profile.jpg"
+                         alt="Srushti Talawar"
+                         class="profile-image"
+                         onerror="this.style.display='none'; document.getElementById('profile-fallback').style.display='flex';">
+
+                    <div class="profile-fallback" id="profile-fallback">
+                        <span>ST</span>
+                    </div>
+
+                    <div class="floating-card">
+                        <span class="status-dot"></span>
+                        Learning and growing
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                Scroll to explore ↓
+            </a>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little introduction about who I am.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">✦</div>
+
+                        <h3>Who Am I?</h3>
+
+                        <p>
+                            I am Srushti Talawar, an Information Science
+                            and Engineering student at REVA University.
+                            I enjoy learning new technologies, improving
+                            my technical knowledge, and working on
+                            creative projects.
+                        </p>
+
+                        <p>
+                            My goal is to strengthen my programming
+                            skills and build projects that solve
+                            real-world problems.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">◎</div>
+
+                        <h3>My Interests</h3>
+
+                        <ul class="interest-list">
+                            <li><span>01</span> Web Development</li>
+                            <li><span>02</span> Learning New Technologies</li>
+                            <li><span>03</span> Reading</li>
+                            <li><span>04</span> Dancing</li>
+                            <li><span>05</span> Singing</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technologies and tools I am exploring.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Web Page Structure</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Web Page Styling</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive Websites</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>C</h3>
+                        <p>Programming Fundamentals</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>C++</h3>
+                        <p>Object-Oriented Programming</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h3>Java</h3>
+                        <p>Programming Fundamentals</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h3>Python</h3>
+                        <p>Programming and Problem Solving</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>SQL</h3>
+                        <p>Database Management</p>
+                    </div>
+
+                </div>
+
+                <p class="skills-note">
+                    I am continuously learning and improving my skills.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>A selection of projects I have worked on.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card glass-card">
+                        <div class="project-number">01</div>
+
+                        <div class="project-icon">⇄</div>
+
+                        <h3>CompareX</h3>
+
+                        <p>
+                            A product comparison website designed to help
+                            users explore products and compare their
+                            features before making a decision.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://srushti628.github.io/CompareX/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+
+                    <article class="project-card glass-card">
+                        <div class="project-number">02</div>
+
+                        <div class="project-icon">✎</div>
+
+                        <h3>Student Feedback System</h3>
+
+                        <p>
+                            A student feedback application that allows
+                            students to submit feedback and ratings
+                            through a simple interface.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>Supabase</span>
+                        </div>
+
+                        <span class="project-status">
+                            Academic Project
+                        </span>
+                    </article>
+
+
+                    <article class="project-card glass-card">
+                        <div class="project-number">03</div>
+
+                        <div class="project-icon">◇</div>
+
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A responsive personal portfolio website
+                            showcasing my introduction, technical skills,
+                            projects, education, and contact details.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <span class="project-status">
+                            Personal Project
+                        </span>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                    <h2><span>Education</span></h2>
+                    <p>My current academic background.</p>
+                </div>
+
+                <div class="education-card glass-card">
+
+                    <div class="education-icon">🎓</div>
+
+                    <div class="education-details">
+                        <p class="education-label">CURRENT EDUCATION</p>
+
+                        <h3>REVA University</h3>
+
+                        <p class="degree">
+                            Information Science and Engineering (ISE)
+                        </p>
+
+                        <p class="education-description">
+                            Currently pursuing my engineering degree
+                            and learning programming, databases,
+                            software development, and computer science
+                            fundamentals.
+                        </p>
+
+                        <div class="education-tags">
+                            <span>Engineering</span>
+                            <span>ISE</span>
+                            <span>3rd Semester</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>Feel free to reach out to me.</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info glass-card">
+
+                        <h3>Get in Touch</h3>
+
+                        <p>
+                            Have a project idea, collaboration opportunity,
+                            or question? You can contact me using the
+                            details below.
+                        </p>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+
+                            <div>
+                                <strong>Email</strong>
+
+                                <p>
+                                    <a href="mailto:srushtibasavaraj13@gmail.com">
+                                        srushtibasavaraj13@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">🎓</span>
+
+                            <div>
+                                <strong>University</strong>
+                                <p>REVA University</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">💻</span>
+
+                            <div>
+                                <strong>Field</strong>
+                                <p>Information Science and Engineering</p>
+                            </div>
+                        </div>
+
+                        <a href="mailto:srushtibasavaraj13@gmail.com"
+                           class="btn btn-primary email-button">
+                            Send Me an Email ↗
+                        </a>
+
+                    </div>
+
+
+                    <form class="contact-form glass-card" id="contact-form">
+
+                        <h3>Send a Message</h3>
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   placeholder="Enter your name"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="Enter your email"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      placeholder="Write your message..."
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Open Email App ↗
+                        </button>
+
+                        <p class="form-note" id="form-note">
+                            Submitting opens your email application.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">S<span>.</span></a>
+
+            <p>
+                Designed and created by Srushti Talawar.
+            </p>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Srushti Talawar.
+                All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
